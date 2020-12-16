@@ -20,9 +20,9 @@ color[] goodcolor = new color[maxpal];
 void setup() {
   size(250,250,P3D);
 //  size(dim,dim,P3D);
-  takecolor("longStickhorse.gif");
+  takecolor("rgb.gif");
   background(255);
-  framerate(30);
+  frameRate(30);
   
   friends = new Friend[num];
 
